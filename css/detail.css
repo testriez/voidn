@@ -1,0 +1,83 @@
+/* Product detail — shared header/footer live in style.css. */
+.product-detail main { padding-top: 80px; }
+.product-detail .product { display: flex; align-items: flex-start; justify-content: space-between; gap: 46px; }
+.product-gallery { display: flex; gap: 12px; width: 581px; flex-shrink: 0; }
+.thumbnail-list { display: flex; flex-direction: column; gap: 12px; width: 77px; flex-shrink: 0; }
+.th-tiny { position: relative; width: 77px; height: 115px; overflow: hidden; background: var(--surface-subtle); }
+.th-tiny img { width: 100%; height: 100%; object-fit: cover; }
+.th-huge { position: relative; width: 492px; height: 762px; overflow: hidden; background: var(--surface-subtle); }
+.th-huge > img { width: 100%; height: 100%; object-fit: cover; object-position: calc(50% + .38px) center; }
+.gallery-fitting { display: none; }
+.product-summary { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 36px; }
+.product-heading { display: flex; flex-direction: column; gap: 18px; }
+.badge-list { display: flex; gap: 12px; }
+.badge-list .badge { display: inline-flex; align-items: center; padding: 3px 6px; border-radius: 4px; background: var(--surface-dark); color: var(--on-color-text); font-size: 14px; font-weight: 500; line-height: 17px; }
+.product-title-container { display: flex; flex-direction: column; gap: 12px; }
+.product-title-container .name { font-size: var(--title-h1); font-weight: 500; line-height: 36px; }
+.product-title-container .price-container { gap: 12px; font-size: var(--title-h2); font-weight: 600; line-height: 29px; }
+.product-title-container .sale { font-weight: 600; }
+.product-purchase { display: flex; flex-direction: column; gap: 36px; }
+.fitting-container { display: flex; flex-direction: column; gap: 18px; }
+.fitting-actions, .gallery-fitting { align-items: center; gap: 8px; }
+.fitting-actions { display: flex; }
+.try-on { display: inline-flex; align-items: center; gap: 8px; font-size: 17px; font-weight: 400; line-height: 20px; text-align: left; }
+.try-on::before { content: ""; display: block; width: 27px; height: 14px; flex-shrink: 0; background: url("../images/icons/vw-m.svg") center no-repeat; }
+button.fitting-info { width: 20px; height: 20px; flex-shrink: 0; background: url("../images/icons/Info.svg") center no-repeat; }
+.tooltip { padding: 16px; border: 1px solid var(--border-default); border-radius: 16px; }
+.tooltip .title { font-size: 16px; font-weight: 500; line-height: 24px; }
+.tooltip .desc { margin-top: 4px; color: var(--body-description); font-size: 15px; line-height: 23px; }
+.product-options { display: flex; flex-direction: column; gap: 32px; }
+.size-option, .color-option { display: flex; flex-direction: column; gap: 16px; }
+.size-option .size, .color-option > .label { font-size: 17px; line-height: 20px; }
+.product-detail select { appearance: none; font-family: inherit; letter-spacing: inherit; color: inherit; background-color: var(--surface-white); cursor: pointer; }
+.product-detail select:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; }
+.size-option select { width: 100%; height: 49px; padding: 4px 50px 4px 16px; border: 1px solid var(--border-default); border-radius: 8px; background: url("../images/fitting/chevron-down.svg") right 22px center no-repeat; color: var(--body-placeholder); font-size: 14px; }
+.color-list { display: flex; gap: 10px; }
+.color { display: grid; place-items: center; width: 20px; height: 20px; border: 1px solid transparent; }
+.color.active { border-color: var(--button-stroke-select); }
+.color-chip { width: 12px; height: 12px; background: var(--surface-dark); }
+.purchase-container { display: flex; flex-direction: column; gap: 24px; }
+.outfit-toggle, .profile-toggle { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 24px; font-size: 17px; font-weight: 400; line-height: 20px; text-align: left; }
+.outfit-toggle::after, .profile-toggle::after { content: ""; width: 24px; height: 24px; flex-shrink: 0; background: url("../images/fitting/chevron-down.svg") center no-repeat; }
+.product-outfit .outfit-list { display: flex; gap: 4px; margin-top: 13px; }
+.product-outfit .outfit-list img { width: 110px; height: 110px; object-fit: cover; }
+.product-detail [hidden] { display: none !important; }
+.purchase-actions { display: flex; gap: 8px; }
+.purchase-actions button { flex: 1; min-width: 0; min-height: 46px; padding: 13px 16px; border-radius: 4px; font-size: 15px; line-height: 18px; }
+.add-wishlist { border: 1px solid var(--button-stroke-focus); font-weight: 500; }
+.add-cart { background: var(--surface-dark); color: var(--on-color-text); font-weight: 600; }
+.product-detail footer { margin-top: 132px; }
+
+/* Native dialog keeps the underlying page inert while the right drawer is open. */
+body.modal-open { overflow: hidden; }
+.fitting-modal { position: fixed; inset: 0 0 0 auto; margin: 0; width: 550px; max-width: 100%; height: 100vh; max-height: none; padding: 0 20px 48px; border: 0; background: var(--surface-white); color: var(--body-default); overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; transform: translateX(100%); transition: transform 300ms ease-out; }
+.fitting-modal.active { transform: translateX(0); }
+.fitting-modal::backdrop { background: var(--surface-overlay); opacity: 0; transition: opacity 300ms ease-out; }
+.fitting-modal.active::backdrop { opacity: 1; }
+.modal-header { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.modal-title-container { display: flex; align-items: center; gap: 8px; }
+.modal-title-container::before { content: ""; width: 27px; height: 14px; background: url("../images/fitting/vr.svg") center no-repeat; }
+.modal-title-container h2 { font-size: 18px; font-weight: 500; line-height: 21px; }
+.fitting-modal .close { width: 24px; height: 24px; background: url("../images/icons/close.svg") center no-repeat; }
+.modal-content { margin-top: 36px; }
+.modal-content > .fitting-info { display: flex; flex-direction: column; gap: 20px; padding-bottom: 32px; }
+.avatar-profile { width: 100%; }
+.profile-details { display: flex; align-items: flex-end; gap: 12px; margin-top: 13px; font-size: 17px; line-height: 20px; }
+.go-edit-profile { display: inline-flex; align-items: center; gap: 5px; flex-shrink: 0; font-size: 14px; line-height: 17px; }
+.go-edit-profile::after { content: ""; width: 12px; height: 12px; background: url("../images/fitting/chevron-right.svg") center no-repeat; }
+.recommendation-container { display: flex; gap: 10px; height: 31px; }
+.badge-container { display: flex; align-items: center; }
+.badge-container .badge { padding: 3px 6px; border: 1px solid var(--border-default); border-radius: 4px; font-size: 14px; line-height: 15px; }
+.recommendation { display: flex; align-items: center; gap: 4px; color: var(--body-description); font-size: 16px; line-height: 24px; }
+.recommendation > span:first-child { width: 45px; }
+.recommendation > span:last-child { width: 102px; }
+.recommendation select { width: 90px; height: 31px; padding: 4px 16px 4px 4px; border: 1px solid var(--border-default); border-radius: 0; color: var(--color-primary); font-size: 16px; background: url("../images/icons/triagle-8.svg") right 3px center no-repeat; }
+.th-avatar { width: 100%; aspect-ratio: 1; background: var(--surface-subtle); }
+.th-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.outfit-selector { padding-top: 32px; }
+.outfit-heading h3 { width: 100%; font-weight: 400; }
+.outfit-selector .outfit-list { display: flex; gap: 4px; overflow-x: auto; margin-top: 12px; scrollbar-width: none; }
+.outfit-item { position: relative; display: block; flex: 0 0 134px; width: 134px; height: 134px; cursor: pointer; }
+.outfit-item img { width: 134px; height: 134px; object-fit: cover; }
+.outfit-item input { appearance: none; position: absolute; top: 4px; right: 4px; width: 20px; height: 20px; border: 1px solid var(--border-default); border-radius: 4px; background: var(--surface-white); cursor: pointer; }
+.outfit-item input:checked { background: var(--button-fill-select) url("../images/icons/check.svg") center no-repeat; }

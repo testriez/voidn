@@ -1,0 +1,603 @@
+{
+  "report": [
+    {
+      "width": 1920,
+      "height": 3512,
+      "overflow": false,
+      "images": [
+        {
+          "src": "images/logo.svg",
+          "ok": true,
+          "w": 77,
+          "h": 16
+        },
+        {
+          "src": "images/hero/hero1.png",
+          "ok": true,
+          "w": 1200,
+          "h": 485
+        },
+        {
+          "src": "images/hero/hero2.png",
+          "ok": true,
+          "w": 1200,
+          "h": 485
+        },
+        {
+          "src": "images/cate/cate1.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate2.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate3.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate4.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate5.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate6.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate7.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate8.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/cate/cate9.png",
+          "ok": true,
+          "w": 120,
+          "h": 120
+        },
+        {
+          "src": "images/new/new1.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/new/new2.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/new/new3.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/new/new4.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/new/new5.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/new/new6.png",
+          "ok": true,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "src": "images/best/best1.png",
+          "ok": true,
+          "w": 292,
+          "h": 440
+        },
+        {
+          "src": "images/best/best2.png",
+          "ok": true,
+          "w": 292,
+          "h": 440
+        },
+        {
+          "src": "images/best/best3.png",
+          "ok": true,
+          "w": 292,
+          "h": 440
+        },
+        {
+          "src": "images/best/best4.png",
+          "ok": true,
+          "w": 292,
+          "h": 440
+        },
+        {
+          "src": "images/promotion/promotion1.jpg",
+          "ok": true,
+          "w": 592,
+          "h": 356
+        },
+        {
+          "src": "images/promotion/promotion2.jpg",
+          "ok": true,
+          "w": 592,
+          "h": 356
+        }
+      ],
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 114
+        },
+        ".hero": {
+          "x": 360,
+          "y": 157,
+          "w": 1200,
+          "h": 485
+        },
+        ".categories": {
+          "x": 360,
+          "y": 712,
+          "w": 1200,
+          "h": 120
+        },
+        ".new-arrival": {
+          "x": 360,
+          "y": 1007,
+          "w": 1200,
+          "h": 364
+        },
+        ".best-item": {
+          "x": 360,
+          "y": 1546,
+          "w": 1200,
+          "h": 604
+        },
+        ".promotion": {
+          "x": 360,
+          "y": 2325,
+          "w": 1200,
+          "h": 415
+        },
+        "footer": {
+          "x": 0,
+          "y": 3092,
+          "w": 1920,
+          "h": 420
+        }
+      }
+    },
+    {
+      "width": 768,
+      "height": 5050,
+      "overflow": false,
+      "images": [
+        {
+          "src": "images/logo.svg",
+          "ok": true,
+          "w": 77,
+          "h": 16
+        },
+        {
+          "src": "images/hero/hero1.png",
+          "ok": true,
+          "w": 1094,
+          "h": 485
+        },
+        {
+          "src": "images/hero/hero2.png",
+          "ok": true,
+          "w": 768,
+          "h": 485
+        },
+        {
+          "src": "images/cate/cate1.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate2.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate3.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate4.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate5.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate6.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate7.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate8.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/cate/cate9.png",
+          "ok": true,
+          "w": 133,
+          "h": 133
+        },
+        {
+          "src": "images/new/new1.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/new/new2.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/new/new3.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/new/new4.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/new/new5.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/new/new6.png",
+          "ok": true,
+          "w": 228,
+          "h": 228
+        },
+        {
+          "src": "images/best/best1.png",
+          "ok": true,
+          "w": 326,
+          "h": 503
+        },
+        {
+          "src": "images/best/best2.png",
+          "ok": true,
+          "w": 326,
+          "h": 503
+        },
+        {
+          "src": "images/best/best3.png",
+          "ok": true,
+          "w": 326,
+          "h": 503
+        },
+        {
+          "src": "images/best/best4.png",
+          "ok": true,
+          "w": 326,
+          "h": 503
+        },
+        {
+          "src": "images/promotion/promotion1.jpg",
+          "ok": true,
+          "w": 708,
+          "h": 401
+        },
+        {
+          "src": "images/promotion/promotion2.jpg",
+          "ok": true,
+          "w": 708,
+          "h": 401
+        }
+      ],
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 106
+        },
+        ".hero": {
+          "x": 0,
+          "y": 159,
+          "w": 768,
+          "h": 485
+        },
+        ".categories": {
+          "x": 0,
+          "y": 694,
+          "w": 768,
+          "h": 276
+        },
+        ".new-arrival": {
+          "x": 0,
+          "y": 1120,
+          "w": 768,
+          "h": 707.96875
+        },
+        ".best-item": {
+          "x": 0,
+          "y": 1977.96875,
+          "w": 768,
+          "h": 1258
+        },
+        ".promotion": {
+          "x": 0,
+          "y": 3385.96875,
+          "w": 768,
+          "h": 875
+        },
+        "footer": {
+          "x": 0,
+          "y": 4462.96875,
+          "w": 768,
+          "h": 587.296875
+        }
+      }
+    },
+    {
+      "width": 360,
+      "height": 3997,
+      "overflow": false,
+      "images": [
+        {
+          "src": "images/logo.svg",
+          "ok": true,
+          "w": 71,
+          "h": 15
+        },
+        {
+          "src": "images/hero/hero1.png",
+          "ok": true,
+          "w": 1922,
+          "h": 852
+        },
+        {
+          "src": "images/hero/hero2.png",
+          "ok": true,
+          "w": 360,
+          "h": 852
+        },
+        {
+          "src": "images/cate/cate1.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate2.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate3.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate4.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate5.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate6.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate7.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/cate/cate8.png",
+          "ok": true,
+          "w": 1500,
+          "h": 1500
+        },
+        {
+          "src": "images/cate/cate9.png",
+          "ok": true,
+          "w": 74,
+          "h": 74
+        },
+        {
+          "src": "images/new/new1.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/new/new2.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/new/new3.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/new/new4.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/new/new5.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/new/new6.png",
+          "ok": true,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "src": "images/best/best1.png",
+          "ok": true,
+          "w": 156,
+          "h": 240
+        },
+        {
+          "src": "images/best/best2.png",
+          "ok": true,
+          "w": 156,
+          "h": 240
+        },
+        {
+          "src": "images/best/best3.png",
+          "ok": true,
+          "w": 156,
+          "h": 240
+        },
+        {
+          "src": "images/best/best4.png",
+          "ok": true,
+          "w": 156,
+          "h": 240
+        },
+        {
+          "src": "images/promotion/promotion1.jpg",
+          "ok": true,
+          "w": 320,
+          "h": 192
+        },
+        {
+          "src": "images/promotion/promotion2.jpg",
+          "ok": true,
+          "w": 320,
+          "h": 192
+        }
+      ],
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 50
+        },
+        ".hero": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 852
+        },
+        ".categories": {
+          "x": 0,
+          "y": 877,
+          "w": 360,
+          "h": 156
+        },
+        ".new-arrival": {
+          "x": 0,
+          "y": 1133,
+          "w": 360,
+          "h": 806
+        },
+        ".best-item": {
+          "x": 0,
+          "y": 2039,
+          "w": 360,
+          "h": 727
+        },
+        ".promotion": {
+          "x": 0,
+          "y": 2866,
+          "w": 360,
+          "h": 456
+        },
+        "footer": {
+          "x": 0,
+          "y": 3474,
+          "w": 360,
+          "h": 523
+        }
+      }
+    }
+  ],
+  "errors": [
+    {
+      "requestId": "9580.194",
+      "timestamp": 1123617.587699,
+      "type": "Image",
+      "errorText": "net::ERR_ABORTED",
+      "canceled": true
+    }
+  ],
+  "interaction": {
+    "slide": "2",
+    "active": "셔츠/블라우스",
+    "missingCategoryBlank": "hidden"
+  }
+}

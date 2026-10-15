@@ -1,0 +1,426 @@
+{
+  "report": [
+    {
+      "geometry": {
+        "width": 1920,
+        "height": 1508,
+        "overflow": false,
+        "images": [
+          {
+            "src": "images/logo.svg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail2.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail3.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail4.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail5.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/vr.png",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/avatar.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/jacket.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          }
+        ],
+        "boxes": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 114
+          },
+          ".product": {
+            "x": 360,
+            "y": 194,
+            "w": 1200,
+            "h": 762
+          },
+          ".product-gallery": {
+            "x": 360,
+            "y": 194,
+            "w": 581,
+            "h": 762
+          },
+          ".th-huge": {
+            "x": 449,
+            "y": 194,
+            "w": 492,
+            "h": 762
+          },
+          ".product-summary": {
+            "x": 987,
+            "y": 194,
+            "w": 573,
+            "h": 612
+          },
+          ".product-purchase": {
+            "x": 987,
+            "y": 348,
+            "w": 573,
+            "h": 458
+          },
+          ".product-options": {
+            "x": 987,
+            "y": 507,
+            "w": 573,
+            "h": 299
+          },
+          "footer": {
+            "x": 0,
+            "y": 1088,
+            "w": 1920,
+            "h": 420
+          }
+        }
+      },
+      "moving": 1651.361328125,
+      "modal": {
+        "open": true,
+        "x": 1370,
+        "width": 550,
+        "height": 1008,
+        "dim": "1",
+        "locked": true,
+        "avatarY": 248,
+        "focusInside": true
+      },
+      "state": {
+        "profileHidden": true,
+        "checkbox": false,
+        "size": "M"
+      },
+      "closed": true,
+      "escapeClosed": true,
+      "controls": {
+        "image": "images/detail/detail2.jpg",
+        "color": true,
+        "outfits": true,
+        "tooltipHidden": true
+      }
+    },
+    {
+      "geometry": {
+        "width": 768,
+        "height": 2443,
+        "overflow": false,
+        "images": [
+          {
+            "src": "images/logo.svg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail2.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail3.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail4.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail5.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/vr.png",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/avatar.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/jacket.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          }
+        ],
+        "boxes": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 768,
+            "h": 106
+          },
+          ".product": {
+            "x": 0,
+            "y": 137,
+            "w": 768,
+            "h": 1589
+          },
+          ".product-gallery": {
+            "x": 30,
+            "y": 137,
+            "w": 708,
+            "h": 959
+          },
+          ".th-huge": {
+            "x": 119,
+            "y": 137,
+            "w": 619,
+            "h": 959
+          },
+          ".product-summary": {
+            "x": 30,
+            "y": 1116,
+            "w": 708,
+            "h": 610
+          },
+          ".product-purchase": {
+            "x": 30,
+            "y": 1268,
+            "w": 708,
+            "h": 458
+          },
+          ".product-options": {
+            "x": 30,
+            "y": 1427,
+            "w": 708,
+            "h": 299
+          },
+          "footer": {
+            "x": 0,
+            "y": 1856,
+            "w": 768,
+            "h": 587.296875
+          }
+        }
+      },
+      "moving": 461.34967041015625,
+      "modal": {
+        "open": true,
+        "x": 218,
+        "width": 550,
+        "height": 1008,
+        "dim": "1",
+        "locked": true,
+        "avatarY": 248,
+        "focusInside": true
+      },
+      "state": {
+        "profileHidden": true,
+        "checkbox": false,
+        "size": "M"
+      },
+      "closed": true,
+      "escapeClosed": true,
+      "controls": {
+        "image": "images/detail/detail2.jpg",
+        "color": true,
+        "outfits": true,
+        "tooltipHidden": true
+      }
+    },
+    {
+      "geometry": {
+        "width": 360,
+        "height": 1840,
+        "overflow": false,
+        "images": [
+          {
+            "src": "images/logo.svg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail2.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail3.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail4.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail5.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/detail/vr.png",
+            "ok": true
+          },
+          {
+            "src": "images/detail/detail1.jpg",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/avatar.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/jacket.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/knit.png",
+            "ok": true
+          },
+          {
+            "src": "images/fitting/pants.png",
+            "ok": true
+          }
+        ],
+        "boxes": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 50
+          },
+          ".product": {
+            "x": 0,
+            "y": 101,
+            "w": 360,
+            "h": 1144
+          },
+          ".product-gallery": {
+            "x": 20,
+            "y": 101,
+            "w": 320,
+            "h": 495
+          },
+          ".th-huge": {
+            "x": 20,
+            "y": 101,
+            "w": 320,
+            "h": 495
+          },
+          ".product-summary": {
+            "x": 20,
+            "y": 616,
+            "w": 320,
+            "h": 629
+          },
+          ".product-purchase": {
+            "x": 20,
+            "y": 764,
+            "w": 320,
+            "h": 481
+          },
+          ".product-options": {
+            "x": 20,
+            "y": 946,
+            "w": 320,
+            "h": 299
+          },
+          "footer": {
+            "x": 0,
+            "y": 1317,
+            "w": 360,
+            "h": 523
+          }
+        }
+      },
+      "moving": 210.21737670898438,
+      "modal": {
+        "open": true,
+        "x": 0,
+        "width": 360,
+        "height": 803,
+        "dim": "1",
+        "locked": true,
+        "avatarY": 233,
+        "focusInside": true
+      },
+      "state": {
+        "profileHidden": true,
+        "checkbox": false,
+        "size": "M"
+      },
+      "closed": true,
+      "escapeClosed": true,
+      "controls": {
+        "image": "images/detail/detail2.jpg",
+        "color": true,
+        "outfits": true,
+        "tooltipHidden": true
+      }
+    }
+  ],
+  "errors": [],
+  "indexRegression": {
+    "slide": "2",
+    "tab": "셔츠/블라우스"
+  }
+}
